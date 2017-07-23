@@ -5,7 +5,9 @@
   "author": "James Zaccardo <jameszaccardo@gmail.com>",
   "private": true,
   "dependencies": {
-    "nuxt": "latest"
+    "node-sass": "^4.5.3",
+    "nuxt": "latest",
+    "sass-loader": "^6.0.6"
   },
   "scripts": {
     "dev": "nuxt",
