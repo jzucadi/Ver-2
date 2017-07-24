@@ -7,7 +7,7 @@
         j.z
       </h1>
       <h2 class="subtitle">
-        Hello. I'm James Zaccardo, a frontend developer based in Los Angeles.
+        Hi. I'm James Zaccardo, a frontend developer based in Los Angeles.
       </h2>
       <div class="links">
         <a href="https://nuxtjs.org/" target="_blank" class="button--green">Documentation</a>
@@ -49,7 +49,7 @@ export default {
 }
 .subtitle
 {
-  font-weight: 300;
+  font-family: "WavehausN";
   font-size: 42px;
   color: #2196F3;
   word-spacing: 5px;
