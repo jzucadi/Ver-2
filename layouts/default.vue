@@ -6,10 +6,20 @@
 </template>
 
 <style>
+@font-face {
+   font-family: WavehausL; 
+   src: url('~assets/Wavehaus-42Light.otf');
+} 
+@font-face {
+   font-family: WavehausT; 
+   src: url('~assets/Wavehaus-28Thin.otf');
+} 
+
+
 
 html
 {
-  font-family: "Wavehaus";
+  font-family: "WavehausL", WavehausT, Helvetica Neue, sans-serif;/* 1 */
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;

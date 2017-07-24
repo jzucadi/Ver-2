@@ -2,12 +2,12 @@
   <section class="container">
     <div>
       <logo/>
-      <p>test meow</p>
+      
       <h1 class="title">
-        NUXT
+        nuxt
       </h1>
       <h2 class="subtitle">
-        Universal Vue.js Application
+        Hi. I'm James Zaccardo, a frontend developer based in Los Angeles.
       </h2>
       <div class="links">
         <a href="https://nuxtjs.org/" target="_blank" class="button--green">Documentation</a>
@@ -29,10 +29,7 @@ export default {
 
 <style>
 
-@font-face {
-   font-family: Wavehaus; 
-   src: url('~assets/Wavehaus-42Light.otf');
-} 
+
 .container
 {
   min-height: 100vh;
@@ -43,7 +40,7 @@ export default {
 }
 .title
 {
-  font-family: "Wavehaus"; /* 1 */
+  font-family: "WavehausL", Helvetica Neue, sans-serif;/* 1 */
   display: block;
   font-weight: 300;
   font-size: 100px;
