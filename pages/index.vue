@@ -2,6 +2,7 @@
   <section class="container">
     <div>
       <logo/>
+      <p>test meow</p>
       <h1 class="title">
         NUXT
       </h1>
@@ -27,6 +28,11 @@ export default {
 </script>
 
 <style>
+
+@font-face {
+   font-family: Wavehaus; 
+   src: url('~assets/Wavehaus-42Light.otf');
+} 
 .container
 {
   min-height: 100vh;
@@ -37,7 +43,7 @@ export default {
 }
 .title
 {
-  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
+  font-family: "Wavehaus"; /* 1 */
   display: block;
   font-weight: 300;
   font-size: 100px;
