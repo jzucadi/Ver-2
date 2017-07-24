@@ -5,6 +5,10 @@
 </template>
 
 <style>
+@font-face {
+     font-family: Wavehaus-42Light;
+     src: url('assets/Wavehaus-42Light.otf'); 
+}
 html
 {
   font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
