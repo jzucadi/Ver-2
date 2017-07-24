@@ -10,7 +10,7 @@ module.exports = {
       { hid: 'description', name: 'description', content: 'James Zaccardo | Web Developer' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }, { rel: 'stylesheet', href: '~assets/Wavehaus-42Light.otf'}, { rel: 'stylesheet', href: '~assets/Wavehaus-28Thin.otf'}
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
   /*

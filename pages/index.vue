@@ -1,13 +1,13 @@
 <template>
   <section class="container">
     <div>
-      <logo/>
+      
       
       <h1 class="title">
-        nuxt
+        j.z
       </h1>
       <h2 class="subtitle">
-        Hi. I'm James Zaccardo, a frontend developer based in Los Angeles.
+        Hello. I'm James Zaccardo, a frontend developer based in Los Angeles.
       </h2>
       <div class="links">
         <a href="https://nuxtjs.org/" target="_blank" class="button--green">Documentation</a>
@@ -40,18 +40,18 @@ export default {
 }
 .title
 {
-  font-family: "WavehausL", Helvetica Neue, sans-serif;/* 1 */
+  font-family: "WavehausB", Helvetica Neue, sans-serif;/* 1 */
   display: block;
   font-weight: 300;
   font-size: 100px;
-  color: #35495e;
+  color: #ccc;
   letter-spacing: 1px;
 }
 .subtitle
 {
   font-weight: 300;
   font-size: 42px;
-  color: #526488;
+  color: #2196F3;
   word-spacing: 5px;
   padding-bottom: 15px;
 }
