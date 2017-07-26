@@ -53,7 +53,7 @@ export default {
   }
 }
 </script>
-<style>
+<style scoped>
 .container
 {
   min-height: 100vh;
@@ -83,13 +83,32 @@ export default {
 {
   padding-top: 15px;
 }
-.page-enter-active,
+.page-enter-active {
+  animation: acrossIn .45s ease-out both;
+} 
+
 .page-leave-active {
-    transition: opacity .6s
+  animation: acrossOut .65s ease-in both;
+} 
+@keyframes acrossIn {
+  0% {
+    transform: translate3d(-100%, 0, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
 }
 
-.page-enter,
-.page-leave-active {
-    opacity: 0
+@keyframes acrossOut {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(100%, 0, 0);
+  }
 }
+.container {
+    background: #cef3d1;
+  }
+
 </style>
