@@ -4,7 +4,7 @@
       
       
       <h1 class="title">
-        j.z
+        Contact
       </h1>
       <h2 class="subtitle">
         Hi. I'm James Zaccardo, a frontend developer based in Los Angeles.
