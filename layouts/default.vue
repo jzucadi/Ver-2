@@ -74,13 +74,5 @@ html
   color: #fff;
   background-color: #35495e;
 }
-.page-enter-active,
-.page-leave-active {
-    transition: opacity .6s
-}
 
-.page-enter,
-.page-leave-active {
-    opacity: 0
-}
 </style>
