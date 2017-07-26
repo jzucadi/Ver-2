@@ -13,6 +13,9 @@
         <a href="#" target="_blank" class="button--green">View Site</a>
         <a href="https://github.com/nuxt/nuxt.js" target="_blank" class="button--grey">GitHub</a>
       </div>
+      <nuxt-link class="navi" to="/work">
+            Work
+          </nuxt-link>
     </div>
   </section>
 </template>
