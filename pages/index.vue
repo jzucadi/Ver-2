@@ -108,7 +108,7 @@ export default {
   }
 }
 .container {
-    background: #cef3d1;
+    background: whitesmoke;
   }
 
 @keyframes bounceInDown {
