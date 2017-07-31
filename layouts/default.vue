@@ -74,5 +74,7 @@ html
   color: #fff;
   background-color: #35495e;
 }
-
+body {
+  background-image:linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
 </style>
