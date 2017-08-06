@@ -13,3 +13,7 @@
         
   </section>
 </template>
+<style lang="sass">
+.red
+  color: red
+</style>
