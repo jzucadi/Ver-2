@@ -13,12 +13,12 @@
         
   </section>
 </template>
-<style>
+<style scoped>
 :root {
     --color-main: #208FF9;
   }
 
-body {
-  color: var(--color-main);
+.container {
+  background: var(--color-main);
 }
 </style>
