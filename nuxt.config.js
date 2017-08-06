@@ -21,6 +21,9 @@ module.exports = {
   ** Build configuration
   */
   build: {
+    postcss: [
+      require('lost')
+    ],
     /*
     ** Run ESLINT on save
     */
