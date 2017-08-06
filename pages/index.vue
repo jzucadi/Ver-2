@@ -16,6 +16,9 @@
       <nuxt-link class="navi" to="/work">
             Work
           </nuxt-link>
+      <nuxt-link class="navi" to="/contact">
+            Contact
+          </nuxt-link>
     </div>
   </section>
 </template>
