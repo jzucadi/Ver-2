@@ -15,7 +15,7 @@
 </template>
 <style scoped>
 :root {
-    --color-main: powderblue;
+    --color-main: cadetblue;
   }
 
 .container {
