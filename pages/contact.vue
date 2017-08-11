@@ -4,7 +4,7 @@
             Home
           </nuxt-link>
     <h1 class="title">
-      Let's get in Touch</h1>
+      Let's talk</h1>
       <div class="email"><a href="mailto:jameszaccardo@gmail.com?Subject=Hello" target="_top">jameszaccardo@gmail.com</a></div>
   
   
