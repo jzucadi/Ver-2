@@ -15,10 +15,13 @@
 </template>
 <style scoped>
 :root {
-    --color-main: cadetblue;
-  }
+  --danger-theme: {
+    color: white;
+    background-color: red;
+  };
+}
 
-.container {
-  background: var(--color-main);
+.danger {
+  @apply --danger-theme;
 }
 </style>
