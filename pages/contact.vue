@@ -43,4 +43,23 @@ padding: calc((var(--fontSize) / 2) + 1px);
 body { font-size: calc(var(--fontSize) * 1.2); }
 }
 
+/* colors stuff */
+a {
+color: var(--highlightColor);
+transition: color 1s; /* autoprefixed ! */
+}
+a:hover { color: gray(255, 50%) }
+a:active { color: rebeccapurple }
+a:focus { background-color: rgb(255 153 0 / 33%); outline: 3px solid hsl(1turn 60% 50%); }
+a:any-link { color: color(var(--highlightColor) blackness(+20%)) }
+
+/* font stuff */
+h2 {
+font-variant-caps: small-caps;
+}
+
+table {
+font-variant-numeric: lining-nums;
+}
+
 </style>
