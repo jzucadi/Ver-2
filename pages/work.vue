@@ -28,7 +28,7 @@ WOW().init()
 <style>
 /* filters */
 .blur {
-filter: blur(4px);
+filter: blur(6px);
 }
 .sepia {
 filter: sepia(.8);
