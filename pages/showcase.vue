@@ -26,6 +26,6 @@ WOW().init()
 
 </script>
 <style>
-@lost gutter 20px;
+@lost gutter 880px;
 @lost flexbox flex;
 </style>
