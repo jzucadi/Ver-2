@@ -169,12 +169,5 @@ export default {
   }
 }
 
-.bounceInUp {
-  animation-name: bounceInUp;
-}
-
-.bounceInDown {
-  animation-name: bounceInDown;
-}
 
 </style>
