@@ -14,18 +14,3 @@
         
   </section>
 </template>
-<script>
-import WOW from 'wowjs'
-if (process.BROWSER_BUILD) {
-  require('wowjs')
-}
-export default {
-  
-WOW().init()
-}
-
-</script>
-<style>
-@lost gutter 880px;
-@lost flexbox flex;
-</style>
