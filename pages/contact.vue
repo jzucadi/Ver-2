@@ -53,13 +53,6 @@ a:active { color: rebeccapurple }
 a:focus { background-color: rgb(255 153 0 / 33%); outline: 3px solid hsl(1turn 60% 50%); }
 a:any-link { color: color(var(--highlightColor) blackness(+20%)) }
 
-/* font stuff */
-h2 {
-font-variant-caps: small-caps;
-}
 
-table {
-font-variant-numeric: lining-nums;
-}
 
 </style>
